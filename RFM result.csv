@@ -1,0 +1,93 @@
+customername,R_value,F_value,M_value,R_score,f_score,m_score,Total_score,RFM_combination,Customer_segemnt
+Boards & Toys Co.,112,2,9129,4,2,1,7,421,others
+Atelier graphique,187,3,24180,3,3,1,7,331,others
+Auto-Moto Classics Inc.,179,3,26479,3,3,1,7,331,others
+Microscale Inc.,209,2,33145,2,1,1,4,211,Promising Customer
+Royale Belge,141,4,33440,4,5,1,10,451,loyal Customer
+"Bavarian Collectables Imports, Co.",258,1,34994,1,1,1,3,111,Need Attentions
+"Double Decker Gift Stores, Ltd",495,2,36019,1,1,1,3,111,Need Attentions
+Cambridge Collectables Co.,388,2,36164,1,1,1,3,111,Need Attentions
+West Coast Collectables Co.,488,2,46085,1,1,1,3,111,Need Attentions
+"Men 'R' US Retailers, Ltd.",508,2,48048,1,1,1,3,111,Need Attentions
+CAF Imports,438,2,49642,1,1,1,3,111,Need Attentions
+Signal Collectibles Ltd.,476,2,50219,1,1,1,3,111,Need Attentions
+Mini Auto Werke,82,3,52264,4,4,1,9,441,loyal Customer
+"Iberia Gift Imports, Corp.",237,2,54724,2,2,1,5,221,others
+Online Mini Collectables,263,2,57198,1,1,1,3,111,Need Attentions
+Gift Ideas Corp.,178,3,57294,3,3,1,7,331,others
+"Clover Collections, Co.",257,2,57756,2,2,1,5,221,others
+"Australian Gift Network, Co",118,3,59469,4,4,1,9,441,loyal Customer
+"Australian Collectables, Ltd",22,3,64591,5,2,1,8,521,others
+Auto Assoc. & Cie.,232,2,64834,2,2,2,6,222,others
+"Classic Gift Ideas, Inc",229,2,67507,2,2,2,6,222,others
+Osaka Souveniers Co.,413,2,67605,1,1,2,4,112,Need Attentions
+Daedalus Designs Imports,465,2,69052,1,1,2,4,112,Need Attentions
+Alpha Cognac,64,3,70488,4,4,2,10,442,loyal Customer
+Diecast Collectables,400,2,70860,1,1,2,4,112,Need Attentions
+Quebec Home Shopping Network,30,3,74205,5,4,2,11,542,Champion
+Mini Wheels Co.,194,3,74476,3,3,2,8,332,others
+"Royal Canadian Collectables, Ltd.",284,2,74635,1,1,2,4,112,Need Attentions
+Marseille Mini Autos,145,3,74936,3,3,2,8,332,others
+Petit Auto,1,3,74973,5,2,2,9,522,others
+Canadian Gift Exchange Network,221,2,75239,2,2,2,6,222,others
+"Volvo Model Replicas, Co",193,4,75755,3,5,2,10,352,loyal Customer
+Classic Legends Inc.,191,3,77795,3,3,2,8,332,others
+giftsbymail.co.uk,211,2,78241,2,1,2,5,212,Promising Customer
+Enaco Distributors,188,3,78412,3,3,2,8,332,others
+Lyon Souveniers,75,3,78570,4,4,2,10,442,loyal Customer
+"Norway Gifts By Mail, Co.",283,2,79224,1,1,2,4,112,Need Attentions
+Super Scale Inc.,392,2,79472,1,1,2,4,112,Need Attentions
+Mini Caravy,47,3,80438,5,4,3,12,543,loyal Customer
+Collectables For Less Inc.,131,3,81578,4,3,3,10,433,others
+Signal Gift Stores,183,3,82751,3,3,3,9,333,others
+Gifts4AllAges.com,25,3,83210,5,4,3,12,543,loyal Customer
+Tekni Collectables Inc.,58,3,83228,4,4,3,11,443,loyal Customer
+Motor Mint Distributors Inc.,195,3,83682,3,3,3,9,333,others
+"Blauer See Auto, Co.",207,4,85172,2,4,3,9,243,Promising Customer
+Mini Classics,228,2,85556,2,2,3,7,223,others
+Collectable Mini Designs Co.,460,2,87489,1,1,3,5,113,Need Attentions
+Vitachrome Inc.,207,3,88041,2,2,3,7,223,others
+"Stylish Desk Decors, Co.",179,3,88804,3,3,3,9,333,others
+Auto Canal Petit,54,3,93171,4,4,3,11,443,loyal Customer
+Cruz & Sons Co.,196,3,94016,2,3,3,8,233,others
+Amica Models & Co.,264,2,94117,1,1,3,5,113,Need Attentions
+"La Corne D'abondance, Co.",192,3,97204,3,3,3,9,333,others
+FunGiftIdeas.com,89,3,98924,4,4,3,11,443,loyal Customer
+"Toms Spezialitten, Ltd",227,2,100307,2,2,3,7,223,others
+Heintze Collectables,221,2,100596,2,2,3,7,223,others
+Gift Depot Inc.,26,3,101895,5,4,4,13,544,Champion
+Marta's Replicas Co.,230,2,103080,2,2,4,8,224,others
+"Oulu Toy Supplies, Inc.",120,3,104370,4,3,4,11,434,others
+Toys4GrownUps.com,139,3,104562,4,3,4,11,434,others
+Mini Creations Ltd.,144,3,108951,3,3,4,10,334,others
+"Toys of Finland, Co.",111,3,111250,4,4,4,12,444,loyal Customer
+Herkku Gifts,270,3,111640,1,2,4,7,124,others
+Suominen Souveniers,145,3,113961,3,3,4,10,334,others
+Handji Gifts& Co,38,4,115499,5,5,4,14,554,Champion
+Baane Mini Imports,207,4,116599,2,4,4,10,244,Promising Customer
+"Vida Sport, Ltd",274,2,117714,1,1,4,6,114,Need Attentions
+"UK Collectables, Ltd.",53,3,118008,5,4,4,13,544,Champion
+"Tokyo Collectables, Ltd",39,4,120563,5,5,4,14,554,Champion
+"Corrida Auto Replicas, Ltd",211,3,120615,2,2,4,8,224,others
+Technics Stores Inc.,146,4,120783,3,4,4,11,344,loyal Customer
+Diecast Classics Inc.,1,4,122138,5,5,4,14,554,Champion
+Online Diecast Creations Co.,208,3,131685,2,2,4,8,224,others
+Scandinavian Gift Ideas,89,3,134259,4,4,4,12,444,loyal Customer
+Reims Collectables,62,5,135043,4,5,5,14,455,Champion
+Rovelli Gifts,200,3,137956,2,2,5,9,225,others
+L'ordine Souveniers,21,3,142601,5,2,5,12,525,others
+"Saveley & Henriot, Co.",455,3,142874,1,2,5,8,125,others
+Danish Wholesale Imports,46,5,145042,5,5,5,15,555,Champion
+Salzburg Collectables,14,4,149799,5,5,5,15,555,Champion
+Corporate Gift Ideas Co.,97,4,149882,4,5,5,14,455,Champion
+Souveniers And Things Co.,2,4,151571,5,5,5,15,555,Champion
+"Anna's Decorations, Ltd",83,4,153996,4,5,5,14,455,Champion
+"AV Stores, Co.",195,3,157808,3,3,5,11,335,others
+The Sharp Gifts Warehouse,39,4,160010,5,5,5,15,555,Champion
+Land of Toys Inc.,197,4,164069,2,4,5,11,245,Promising Customer
+"Dragon Souveniers, Ltd.",90,5,172990,4,5,5,14,455,Champion
+La Rochelle Gifts,0,4,180125,5,5,5,15,555,Champion
+Muscle Machine Inc,181,4,197737,3,5,5,13,355,loyal Customer
+"Australian Collectors, Co.",183,5,200995,3,5,5,13,355,loyal Customer
+Mini Gifts Distributors Ltd.,2,17,654858,5,5,5,15,555,Champion
+Euro Shopping Channel,0,26,912294,5,5,5,15,555,Champion
