@@ -72,10 +72,11 @@ The final view `rfm` contains:
 ## 📁 File Structure
 
 ```
-📁 rfm_sales_project/
-├── rfm_segmentation.sql   # Full SQL script
-├── sample_sales_data.csv  # Sales data (not uploaded due to privacy)
-└── README.md              # Project overview
+📁 RFM Segmentation Project/
+├── README.md              # Project overview
+├── RFM SQL code file.sql  # Full SQL script
+├── RFM result.csv   # Final Result
+├── Sales Data for RFM Segmentation.csv  # Sales data (not uploaded due to privacy)
 ```
 
 ---
