@@ -73,9 +73,9 @@ The final view `rfm` contains:
 
 ```
 📁 RFM Segmentation Project/
-├── README.md              # Project overview
-├── RFM SQL code file.sql  # Full SQL script
-├── RFM result.csv   # Final Result
+├── README.md                            # Project overview
+├── RFM SQL code file.sql                # Full SQL script
+├── RFM result.csv                       # Final Result
 ├── Sales Data for RFM Segmentation.csv  # Sales data (not uploaded due to privacy)
 ```
 
