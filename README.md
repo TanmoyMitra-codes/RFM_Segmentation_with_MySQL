@@ -1,84 +1,94 @@
-🧮 RFM Segmentation with MySQL
-This project demonstrates how to perform RFM (Recency, Frequency, Monetary) segmentation using MySQL based on a transactional sales dataset. RFM analysis is a powerful marketing technique that helps businesses segment customers based on purchasing behavior.
 
-📊 What is RFM?
-Recency (R) – How recently a customer made a purchase.
+# 🧮 RFM Segmentation with MySQL
 
-Frequency (F) – How often a customer makes a purchase.
+This project demonstrates how to perform **RFM (Recency, Frequency, Monetary)** segmentation using **MySQL** based on a transactional sales dataset. RFM analysis is a powerful marketing technique that helps businesses segment customers based on purchasing behavior.
 
-Monetary (M) – How much money a customer spends.
+## 📊 What is RFM?
 
-These three metrics are used to group customers into segments like Champions, Loyal Customers, Promising Customers, and others, which can then inform marketing strategies.
+- **Recency (R)** – How recently a customer made a purchase.
+- **Frequency (F)** – How often a customer makes a purchase.
+- **Monetary (M)** – How much money a customer spends.
 
-🛠️ Project Overview
-1. Database Setup
-Dropped the existing rfm_sales database (if any).
+These three metrics are used to group customers into segments like *Champions*, *Loyal Customers*, *Promising Customers*, and others, which can then inform marketing strategies.
 
-Created a new database rfm_sales.
+---
 
-Imported transactional sales data (sample_sales_data) from a CSV file using MySQL's Table Data Import Wizard.
+## 🛠️ Project Overview
 
-2. Data Exploration
-Previewed and counted total rows and unique orders.
+### 1. **Database Setup**
+- Dropped the existing `rfm_sales` database (if any).
+- Created a new database `rfm_sales`.
+- Imported transactional sales data (`sample_sales_data`) from a CSV file using MySQL's Table Data Import Wizard.
 
-Performed year-wise and month-wise aggregations on sales and order counts.
+### 2. **Data Exploration**
+- Previewed and counted total rows and unique orders.
+- Performed year-wise and month-wise aggregations on sales and order counts.
+- Used `CASE WHEN` to pivot year-based sales and orders by month.
 
-Used CASE WHEN to pivot year-based sales and orders by month.
+### 3. **Date Handling**
+- Converted `orderdate` strings into proper `DATE` format using `STR_TO_DATE`.
+- Extracted the first and last transaction dates.
 
-3. Date Handling
-Converted orderdate strings into proper DATE format using STR_TO_DATE.
+### 4. **RFM Segmentation Logic**
+- Created a **customer summary table** with:
+  - `R_value`: Days since last purchase
+  - `F_value`: Total distinct orders
+  - `M_value`: Total revenue per customer
+- Calculated **RFM scores** using `NTILE(5)` for ranking.
+- Created a **combined RFM score** and classified customers into meaningful segments.
 
-Extracted the first and last transaction dates.
-
-4. RFM Segmentation Logic
-Created a customer summary table with:
-
-R_value: Days since last purchase
-
-F_value: Total distinct orders
-
-M_value: Total revenue per customer
-
-Calculated RFM scores using NTILE(5) for ranking.
-
-Created a combined RFM score and classified customers into meaningful segments.
-
-5. Customer Segments Defined
+### 5. **Customer Segments Defined**
 Segments include:
+- 🏆 **Champions**
+- 💛 **Loyal Customers**
+- 🌱 **Potential Loyalists**
+- 🌟 **Promising Customers**
+- 🛎️ **Need Attention**
+- ⚠️ **Others**
 
-🏆 Champions
+These segments were assigned using specific RFM score combinations via `CASE` statements.
 
-💛 Loyal Customers
+---
 
-🌱 Potential Loyalists
+## 📂 Output
 
-🌟 Promising Customers
+The final view `rfm` contains:
+- Each customer's R, F, M scores
+- Total RFM score
+- RFM combination
+- Assigned segment label
 
-🛎️ Need Attention
+---
 
-⚠️ Others
+## 🧠 Skills Demonstrated
 
-These segments were assigned using specific RFM score combinations via CASE statements.
+- SQL Aggregation and Window Functions (`NTILE`, `CASE`)
+- Data transformation and pivoting
+- Customer behavior analysis using RFM
+- MySQL view creation and optimization
 
-📂 Output
-The final view rfm contains:
+---
 
-Each customer's R, F, M scores
+## 📁 File Structure
 
-Total RFM score
+```
+📁 rfm_sales_project/
+├── rfm_segmentation.sql   # Full SQL script
+├── sample_sales_data.csv  # Sales data (not uploaded due to privacy)
+└── README.md              # Project overview
+```
 
-RFM combination
+---
 
-Assigned segment label
+## 🚀 How to Use
 
-🧠 Skills Demonstrated
-SQL Aggregation and Window Functions (NTILE, CASE)
+1. Clone this repo.
+2. Import the SQL file into your MySQL environment.
+3. Use the `sample_sales_data.csv` file and import it into the `rfm_sales` database.
+4. Run the queries step-by-step or execute the full script to generate the customer segments.
 
-Data transformation and pivoting
+---
 
-Customer behavior analysis using RFM
+## 📬 Contact
 
-MySQL view creation and optimization
-
-📬 Contact
 If you have any questions or feedback, feel free to reach out or open an issue.
