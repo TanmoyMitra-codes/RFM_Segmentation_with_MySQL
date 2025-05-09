@@ -18,7 +18,7 @@ These three metrics are used to group customers into segments like *Champions*, 
 ### 1. **Database Setup**
 - Dropped the existing `rfm_sales` database (if any).
 - Created a new database `rfm_sales`.
-- Imported transactional sales data (`sample_sales_data`) from a CSV file using MySQL's Table Data Import Wizard.
+- Imported transactional sales data (`Sales Data for RFM Segmentation`) from a CSV file using MySQL's Table Data Import Wizard.
 
 ### 2. **Data Exploration**
 - Previewed and counted total rows and unique orders.
@@ -76,7 +76,7 @@ The final view `rfm` contains:
 ├── README.md                            # Project overview
 ├── RFM SQL code file.sql                # Full SQL script
 ├── RFM result.csv                       # Final Result
-├── Sales Data for RFM Segmentation.csv  # Sales data (not uploaded due to privacy)
+├── Sales Data for RFM Segmentation.csv  # Sales data
 ```
 
 ---
@@ -85,7 +85,7 @@ The final view `rfm` contains:
 
 1. Clone this repo.
 2. Import the SQL file into your MySQL environment.
-3. Use the `sample_sales_data.csv` file and import it into the `rfm_sales` database.
+3. Use the `Sales Data for RFM Segmentation.csv` file and import it into the `rfm_sales` database.
 4. Run the queries step-by-step or execute the full script to generate the customer segments.
 
 ---
